@@ -1,0 +1,56 @@
+:root {
+  --bg1: #ffffff;
+  --black: #000000;
+  --g-0: #ffffff;
+  --gray-1: #101010;
+  --gray-6: #666666;
+  --gray-9: #999999;
+  --gray-a: #aaaaaa;
+  --gray-d: #dddddd;
+  --green: #4dc17e;
+  --p-blue: #ff198c;
+  --text: #ffffff;
+  --white: #ffffff0d;
+  --yellow: #efb643;
+
+  --font-size-l: 40px;
+  --font-size-m: 18px;
+  --font-size-s: 14px;
+  --font-size-xs: 13px;
+
+  --font-family-pingfang_sc-medium: "PingFang SC-Medium", Helvetica;
+  --font-family-pingfang_sc-regular: "PingFang SC-Regular", Helvetica;
+  --font-family-pingfang_sc-semibold: "PingFang SC-Semibold", Helvetica;
+}
+
+.pingfangsc-medium-rose-18px {
+  color: var(--p-blue);
+  font-family: var(--font-family-pingfang_sc-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.pingfangsc-regular-normal-white-14px {
+  color: var(--bg1);
+  font-family: var(--font-family-pingfang_sc-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pingfangsc-medium-alto-18px {
+  color: var(--gray-d);
+  font-family: var(--font-family-pingfang_sc-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.pingfangsc-regular-normal-mountain-mist-13px {
+  color: var(--gray-9);
+  font-family: var(--font-family-pingfang_sc-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
