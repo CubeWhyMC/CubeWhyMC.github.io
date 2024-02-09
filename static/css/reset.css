@@ -6,6 +6,7 @@ body {
     font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     color: #333;
 }
+
 html,
 body,
 div,
@@ -39,6 +40,7 @@ pre {
     padding: 0;
     outline: none;
 }
+
 h1,
 h2,
 h3,
@@ -49,25 +51,30 @@ h6 {
     font-weight: bold;
     line-height: 1.2;
 }
+
 ul,
 ol,
 dl {
     list-style-type: none;
 }
+
 fieldset,
 img {
     border: none;
 }
+
 table {
     border-collapse: collapse;
     table-layout: fixed;
     empty-cells: show;
 }
+
 caption,
 th {
     text-align: left;
     font-weight: normal;
 }
+
 address,
 caption,
 cite,
@@ -77,6 +84,7 @@ th {
     font-style: normal;
     font-weight: normal;
 }
+
 input,
 select,
 textarea,
@@ -85,28 +93,35 @@ button {
     vertical-align: baseline;
     *vertical-align: middle;
     outline: none;
-    border:none;
+    border: none;
 }
+
 textarea {
     vertical-align: top;
 }
+
 img {
     vertical-align: middle;
 }
+
 em,
 i {
     font-style: normal;
 }
+
 ins {
     text-decoration: underline;
 }
+
 del {
     text-decoration: line-through;
 }
+
 q:before,
 q:after {
     content: "";
 }
+
 hr {
     margin: 4px 0;
     border: none;
@@ -117,17 +132,24 @@ hr {
     _font-size: 0;
     _line-height: 0;
 }
+
 a {
     text-decoration: none;
 }
+
 a:active {
     opacity: .7;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.flex-center{
+
+.flex-center {
     display: flex;
     align-items: center;
 }
-img.load-img[src=""],img.load-img:not([src]){opacity:0;}
+
+img.load-img[src=""], img.load-img:not([src]) {
+    opacity: 0;
+}
